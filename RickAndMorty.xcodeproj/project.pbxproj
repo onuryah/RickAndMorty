@@ -13,9 +13,36 @@
 		4A66EFDF27AF0DB400579FB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A66EFDD27AF0DB400579FB7 /* Main.storyboard */; };
 		4A66EFE127AF0DB600579FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A66EFE027AF0DB600579FB7 /* Assets.xcassets */; };
 		4A66EFE427AF0DB600579FB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A66EFE227AF0DB600579FB7 /* LaunchScreen.storyboard */; };
+		4A66EFEF27AF106300579FB7 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 4A66EFEE27AF106300579FB7 /* Apollo */; };
+		4A8FAE2627B053E8000708D7 /* LaunchList.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 4A8FAE2527B053E8000708D7 /* LaunchList.graphql */; };
+		4A8FAE2827B0546F000708D7 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A8FAE2727B0546F000708D7 /* schema.json */; };
+		4A8FAE2B27B0588C000708D7 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8FAE2A27B0588C000708D7 /* API.swift */; };
+		4A8FAE2D27B06ACB000708D7 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8FAE2C27B06ACB000708D7 /* Network.swift */; };
+		4A8FAE2F27B09F3C000708D7 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8FAE2E27B09F3C000708D7 /* Cell.swift */; };
+		4AD952AF27B297F200217CBD /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD9529C27B297F200217CBD /* Roboto-Medium.ttf */; };
+		4AD952B027B297F200217CBD /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD9529D27B297F200217CBD /* Roboto-Light.ttf */; };
+		4AD952B127B297F200217CBD /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD9529E27B297F200217CBD /* RobotoCondensed-Bold.ttf */; };
+		4AD952B227B297F200217CBD /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD9529F27B297F200217CBD /* RobotoCondensed-Light.ttf */; };
+		4AD952B327B297F200217CBD /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD952A027B297F200217CBD /* Roboto-Regular.ttf */; };
+		4AD952B427B297F200217CBD /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD952A127B297F200217CBD /* Roboto-MediumItalic.ttf */; };
+		4AD952B527B297F200217CBD /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD952A227B297F200217CBD /* RobotoCondensed-Italic.ttf */; };
+		4AD952B627B297F200217CBD /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD952A327B297F200217CBD /* RobotoCondensed-BoldItalic.ttf */; };
+		4AD952B727B297F200217CBD /* Apache License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AD952A427B297F200217CBD /* Apache License.txt */; };
+		4AD952B827B297F200217CBD /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD952A527B297F200217CBD /* RobotoCondensed-LightItalic.ttf */; };
+		4AD952B927B297F200217CBD /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD952A627B297F200217CBD /* Roboto-ThinItalic.ttf */; };
+		4AD952BA27B297F200217CBD /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD952A727B297F200217CBD /* RobotoCondensed-Regular.ttf */; };
+		4AD952BB27B297F200217CBD /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD952A827B297F200217CBD /* Roboto-BoldItalic.ttf */; };
+		4AD952BC27B297F200217CBD /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD952A927B297F200217CBD /* Roboto-LightItalic.ttf */; };
+		4AD952BD27B297F200217CBD /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD952AA27B297F200217CBD /* Roboto-Italic.ttf */; };
+		4AD952BE27B297F200217CBD /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD952AB27B297F200217CBD /* Roboto-BlackItalic.ttf */; };
+		4AD952BF27B297F200217CBD /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD952AC27B297F200217CBD /* Roboto-Bold.ttf */; };
+		4AD952C027B297F200217CBD /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD952AD27B297F200217CBD /* Roboto-Thin.ttf */; };
+		4AD952C127B297F200217CBD /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AD952AE27B297F200217CBD /* Roboto-Black.ttf */; };
+		8689FDEB582A7C3B31AE6633 /* Pods_RickAndMorty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C41F1852F0109F68B0BF29C /* Pods_RickAndMorty.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A35B85095CCD047AAD3D007 /* Pods-RickAndMorty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty.release.xcconfig"; path = "Target Support Files/Pods-RickAndMorty/Pods-RickAndMorty.release.xcconfig"; sourceTree = "<group>"; };
 		4A66EFD427AF0DB400579FB7 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A66EFD727AF0DB400579FB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A66EFD927AF0DB400579FB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +51,32 @@
 		4A66EFE027AF0DB600579FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A66EFE327AF0DB600579FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A66EFE527AF0DB600579FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A8FAE2527B053E8000708D7 /* LaunchList.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = LaunchList.graphql; sourceTree = "<group>"; };
+		4A8FAE2727B0546F000708D7 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = schema.json; path = RickAndMorty/Shared/schema.json; sourceTree = SOURCE_ROOT; };
+		4A8FAE2A27B0588C000708D7 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4A8FAE2C27B06ACB000708D7 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		4A8FAE2E27B09F3C000708D7 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		4AD9529C27B297F200217CBD /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		4AD9529D27B297F200217CBD /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		4AD9529E27B297F200217CBD /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		4AD9529F27B297F200217CBD /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		4AD952A027B297F200217CBD /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		4AD952A127B297F200217CBD /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4AD952A227B297F200217CBD /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		4AD952A327B297F200217CBD /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4AD952A427B297F200217CBD /* Apache License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Apache License.txt"; sourceTree = "<group>"; };
+		4AD952A527B297F200217CBD /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		4AD952A627B297F200217CBD /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		4AD952A727B297F200217CBD /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		4AD952A827B297F200217CBD /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4AD952A927B297F200217CBD /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		4AD952AA27B297F200217CBD /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		4AD952AB27B297F200217CBD /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4AD952AC27B297F200217CBD /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		4AD952AD27B297F200217CBD /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		4AD952AE27B297F200217CBD /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		9C41F1852F0109F68B0BF29C /* Pods_RickAndMorty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RickAndMorty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B5C433B97441D43415148C /* Pods-RickAndMorty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RickAndMorty.debug.xcconfig"; path = "Target Support Files/Pods-RickAndMorty/Pods-RickAndMorty.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A66EFEF27AF106300579FB7 /* Apollo in Frameworks */,
+				8689FDEB582A7C3B31AE6633 /* Pods_RickAndMorty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +97,8 @@
 			children = (
 				4A66EFD627AF0DB400579FB7 /* RickAndMorty */,
 				4A66EFD527AF0DB400579FB7 /* Products */,
+				7CF42420B7DB70710D3E0F51 /* Pods */,
+				7A1384DC3CA3E4BF3F63BBBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +113,80 @@
 		4A66EFD627AF0DB400579FB7 /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
-				4A66EFD727AF0DB400579FB7 /* AppDelegate.swift */,
-				4A66EFD927AF0DB400579FB7 /* SceneDelegate.swift */,
+				4AD9529B27B297F200217CBD /* roboto */,
+				4A8FAE2927B056BB000708D7 /* Shared */,
+				4A66EFEB27AF0DC500579FB7 /* Delegates */,
 				4A66EFDB27AF0DB400579FB7 /* ViewController.swift */,
 				4A66EFDD27AF0DB400579FB7 /* Main.storyboard */,
 				4A66EFE027AF0DB600579FB7 /* Assets.xcassets */,
 				4A66EFE227AF0DB600579FB7 /* LaunchScreen.storyboard */,
 				4A66EFE527AF0DB600579FB7 /* Info.plist */,
+				4A8FAE2C27B06ACB000708D7 /* Network.swift */,
+				4A8FAE2E27B09F3C000708D7 /* Cell.swift */,
 			);
 			path = RickAndMorty;
+			sourceTree = "<group>";
+		};
+		4A66EFEB27AF0DC500579FB7 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4A66EFD727AF0DB400579FB7 /* AppDelegate.swift */,
+				4A66EFD927AF0DB400579FB7 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		4A8FAE2927B056BB000708D7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4A8FAE2527B053E8000708D7 /* LaunchList.graphql */,
+				4A8FAE2A27B0588C000708D7 /* API.swift */,
+				4A8FAE2727B0546F000708D7 /* schema.json */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4AD9529B27B297F200217CBD /* roboto */ = {
+			isa = PBXGroup;
+			children = (
+				4AD9529C27B297F200217CBD /* Roboto-Medium.ttf */,
+				4AD9529D27B297F200217CBD /* Roboto-Light.ttf */,
+				4AD9529E27B297F200217CBD /* RobotoCondensed-Bold.ttf */,
+				4AD9529F27B297F200217CBD /* RobotoCondensed-Light.ttf */,
+				4AD952A027B297F200217CBD /* Roboto-Regular.ttf */,
+				4AD952A127B297F200217CBD /* Roboto-MediumItalic.ttf */,
+				4AD952A227B297F200217CBD /* RobotoCondensed-Italic.ttf */,
+				4AD952A327B297F200217CBD /* RobotoCondensed-BoldItalic.ttf */,
+				4AD952A427B297F200217CBD /* Apache License.txt */,
+				4AD952A527B297F200217CBD /* RobotoCondensed-LightItalic.ttf */,
+				4AD952A627B297F200217CBD /* Roboto-ThinItalic.ttf */,
+				4AD952A727B297F200217CBD /* RobotoCondensed-Regular.ttf */,
+				4AD952A827B297F200217CBD /* Roboto-BoldItalic.ttf */,
+				4AD952A927B297F200217CBD /* Roboto-LightItalic.ttf */,
+				4AD952AA27B297F200217CBD /* Roboto-Italic.ttf */,
+				4AD952AB27B297F200217CBD /* Roboto-BlackItalic.ttf */,
+				4AD952AC27B297F200217CBD /* Roboto-Bold.ttf */,
+				4AD952AD27B297F200217CBD /* Roboto-Thin.ttf */,
+				4AD952AE27B297F200217CBD /* Roboto-Black.ttf */,
+			);
+			path = roboto;
+			sourceTree = "<group>";
+		};
+		7A1384DC3CA3E4BF3F63BBBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C41F1852F0109F68B0BF29C /* Pods_RickAndMorty.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CF42420B7DB70710D3E0F51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1B5C433B97441D43415148C /* Pods-RickAndMorty.debug.xcconfig */,
+				2A35B85095CCD047AAD3D007 /* Pods-RickAndMorty.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +196,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A66EFE827AF0DB600579FB7 /* Build configuration list for PBXNativeTarget "RickAndMorty" */;
 			buildPhases = (
+				DF1CB9E6CA04626881E8516E /* [CP] Check Pods Manifest.lock */,
+				4A66EFF027AF13C300579FB7 /* Apollo */,
 				4A66EFD027AF0DB400579FB7 /* Sources */,
 				4A66EFD127AF0DB400579FB7 /* Frameworks */,
 				4A66EFD227AF0DB400579FB7 /* Resources */,
+				B2D5CFA49582BA625A98C125 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RickAndMorty;
+			packageProductDependencies = (
+				4A66EFEE27AF106300579FB7 /* Apollo */,
+			);
 			productName = RickAndMorty;
 			productReference = 4A66EFD427AF0DB400579FB7 /* RickAndMorty.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +239,9 @@
 				Base,
 			);
 			mainGroup = 4A66EFCB27AF0DB400579FB7;
+			packageReferences = (
+				4A66EFED27AF106300579FB7 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = 4A66EFD527AF0DB400579FB7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,22 +256,106 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AD952BB27B297F200217CBD /* Roboto-BoldItalic.ttf in Resources */,
+				4AD952B627B297F200217CBD /* RobotoCondensed-BoldItalic.ttf in Resources */,
 				4A66EFE427AF0DB600579FB7 /* LaunchScreen.storyboard in Resources */,
+				4AD952B227B297F200217CBD /* RobotoCondensed-Light.ttf in Resources */,
+				4AD952BF27B297F200217CBD /* Roboto-Bold.ttf in Resources */,
+				4AD952B727B297F200217CBD /* Apache License.txt in Resources */,
+				4AD952B327B297F200217CBD /* Roboto-Regular.ttf in Resources */,
 				4A66EFE127AF0DB600579FB7 /* Assets.xcassets in Resources */,
+				4AD952B127B297F200217CBD /* RobotoCondensed-Bold.ttf in Resources */,
+				4AD952C027B297F200217CBD /* Roboto-Thin.ttf in Resources */,
+				4AD952B527B297F200217CBD /* RobotoCondensed-Italic.ttf in Resources */,
+				4AD952C127B297F200217CBD /* Roboto-Black.ttf in Resources */,
+				4AD952AF27B297F200217CBD /* Roboto-Medium.ttf in Resources */,
+				4AD952BE27B297F200217CBD /* Roboto-BlackItalic.ttf in Resources */,
 				4A66EFDF27AF0DB400579FB7 /* Main.storyboard in Resources */,
+				4AD952B027B297F200217CBD /* Roboto-Light.ttf in Resources */,
+				4A8FAE2827B0546F000708D7 /* schema.json in Resources */,
+				4AD952B927B297F200217CBD /* Roboto-ThinItalic.ttf in Resources */,
+				4AD952B827B297F200217CBD /* RobotoCondensed-LightItalic.ttf in Resources */,
+				4AD952BC27B297F200217CBD /* Roboto-LightItalic.ttf in Resources */,
+				4AD952B427B297F200217CBD /* Roboto-MediumItalic.ttf in Resources */,
+				4AD952BD27B297F200217CBD /* Roboto-Italic.ttf in Resources */,
+				4AD952BA27B297F200217CBD /* RobotoCondensed-Regular.ttf in Resources */,
+				4A8FAE2627B053E8000708D7 /* LaunchList.graphql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A66EFF027AF13C300579FB7 /* Apollo */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Apollo;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "    DERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\n     while ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n       if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n         echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n        exit 1\n       fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}/Shared\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
+		};
+		B2D5CFA49582BA625A98C125 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty/Pods-RickAndMorty-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty/Pods-RickAndMorty-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RickAndMorty/Pods-RickAndMorty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF1CB9E6CA04626881E8516E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RickAndMorty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A66EFD027AF0DB400579FB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A8FAE2D27B06ACB000708D7 /* Network.swift in Sources */,
 				4A66EFDC27AF0DB400579FB7 /* ViewController.swift in Sources */,
 				4A66EFD827AF0DB400579FB7 /* AppDelegate.swift in Sources */,
+				4A8FAE2B27B0588C000708D7 /* API.swift in Sources */,
 				4A66EFDA27AF0DB400579FB7 /* SceneDelegate.swift in Sources */,
+				4A8FAE2F27B09F3C000708D7 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +499,7 @@
 		};
 		4A66EFE927AF0DB600579FB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B5C433B97441D43415148C /* Pods-RickAndMorty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +528,7 @@
 		};
 		4A66EFEA27AF0DB600579FB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A35B85095CCD047AAD3D007 /* Pods-RickAndMorty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -360,6 +577,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4A66EFED27AF106300579FB7 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.49.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4A66EFEE27AF106300579FB7 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A66EFED27AF106300579FB7 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4A66EFCC27AF0DB400579FB7 /* Project object */;
 }

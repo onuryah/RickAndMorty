@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Apollo
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

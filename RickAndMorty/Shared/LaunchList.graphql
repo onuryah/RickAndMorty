@@ -1,0 +1,12 @@
+query LaunchList{
+  characters{
+    results{
+    image
+      id
+      name
+      location{
+        name
+      }
+    }
+  }
+}
