@@ -26,7 +26,9 @@ class ViewController: UIViewController {
         myTableView.dataSource = self
         fetchDatas()
         setIkon()
+        self.view.backgroundColor = UIColor(red: 0.898, green: 0.898, blue: 0.898, alpha: 1)
     }
+    
 
 
 }
@@ -38,16 +40,32 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = myTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! Cell
-        if let urlString = dataArray[indexPath.row]?.image{
-            if let url = URL(string: urlString){
-                cell.characterImageView.sd_setImage(with: url)
+        
+        if let datas = dataArray[indexPath.row]{
+            if let name = datas.name{
+                cell.name.text = "Name: "+name
+            }
+            if let location = datas.location?.name{
+                cell.location.text = "Location: "+location
+            }
+            if let id = datas.id{
+                cell.id.text = "#id: "+id
+            }
+            if let urlString = datas.image{
+                if let url = URL(string: urlString){
+                    cell.characterImageView.sd_setImage(with: url)
+                }
             }
         }
+        
+        cell.backgroundColor = UIColor(red: 0.898, green: 0.898, blue: 0.898, alpha: 1)
         return cell
     }
+
     
     fileprivate func setTableView(){
         self.view.addSubview(myTableView)
+        self.myTableView.backgroundColor = UIColor(red: 0.898, green: 0.898, blue: 0.898, alpha: 1)
         myTableView.rowHeight = 281
         myTableView.register(Cell.self, forCellReuseIdentifier: "cell")
         myTableView.snp.makeConstraints { make in
